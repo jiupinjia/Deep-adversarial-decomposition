@@ -31,7 +31,7 @@ git clone https://github.com/jiupinjia/Deep-adversarial-decomposition.git
 cd Deep-adversarial-decomposition
 ```
 
-2. Download our demo datasets from 1) [Google Driver](https://drive.google.com/open?id=1MIBstoZI1hJ2Rio2CP5Gq1KLJ0IVC1Rd); or 2) [BaiduYun](https://pan.baidu.com/s/17Lfh5LpXrTsxkwFdoi_Jhw) (Key: xxxx), and unzip into the repo directory.
+2. Download our demo datasets from 1) [Google Driver](https://drive.google.com/open?id=xxx); or 2) [BaiduYun](https://pan.baidu.com/xxxx) (Key: xxxx), and unzip into the repo directory.
 
 ```bash
 unzip datasets.zip
