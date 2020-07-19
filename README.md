@@ -2,7 +2,7 @@
 
 [PDF](<https://openaccess.thecvf.com/content_CVPR_2020/papers/Zou_Deep_Adversarial_Decomposition_A_Unified_Framework_for_Separating_Superimposed_Images_CVPR_2020_paper.pdf>) | [Supp](<https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Zou_Deep_Adversarial_Decomposition_CVPR_2020_supplemental.pdf>) | [1min-DemoVideo](<http://www-personal.umich.edu/~zzhengxi/zzx_gallery/5946-1min.mp4>) 
 
-### Pytorch implementation of the paper: "A Unified Framework for Separating Superimposed Images", in CVPR 2020.
+### Pytorch implementation of the paper: "Deep Adversarial Decomposition: A Unified Framework for Separating Superimposed Images", in CVPR 2020.
 
 In the computer vision field, many tasks can be considered as image layer mixture/separation problems. For example, when we take a picture on rainy days, the image obtained can be viewed as a mixture of two layers: a rain streak layer and a clean background layer. When we look through a transparent glass, we see a mixture of the scene beyond the glass and the scene reflected by the glass.
 
