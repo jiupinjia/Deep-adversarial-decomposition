@@ -48,7 +48,6 @@ See [Requirements.txt](requirements.txt).
 #### On [Stanford-Dogs](https://people.csail.mit.edu/khosla/papers/fgvc2011.pdf) + [VGG-Flowers](http://www.robots.ox.ac.uk/~men/papers/nilsback_cvpr06.pdf)
 
 - To train the model:
-
   ``````shell
   python train.py --dataset dogsflowers --net_G unet_128 --checkpoint_dir checkpoints --vis_dir val_out --max_num_epochs 200 --batch_size 2 --enable_d1d2 --enable_d3 --enable_synfake --output_auto_enhance
   ``````
@@ -82,7 +81,7 @@ See [Requirements.txt](requirements.txt).
 - To test the model:
 
   ``````shell
-python eval_derain.py --dataset rain100h --ckptdir checkpoints --net_G unet_512 --in_size 512 --save_output
+  python eval_derain.py --dataset rain100h --ckptdir checkpoints --net_G unet_512 --in_size 512 --save_output
   ``````
 
 #### On [Rain800](https://arxiv.org/abs/1701.05957) 
