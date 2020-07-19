@@ -39,11 +39,8 @@ unzip datasets.zip
 
    
 
-## Training and evaluation
 
-
-
-### Task 1: Image unmix
+## Task 1: Image unmix
 
 ![teaser](fig/unmix.jpg)
 
@@ -72,7 +69,7 @@ python train.py --dataset mnist --net_G unet_64 --checkpoint_dir checkpoints --v
 
 
 
-### Task 2: Image deraining
+## Task 2: Image deraining
 
 ![teaser](fig/derain.jpg)
 
@@ -126,7 +123,7 @@ python eval_derain.py --dataset did-mdn-test2 --ckptdir checkpoints --net_G unet
 
 
 
-### Task 3: Image reflection removal
+## Task 3: Image reflection removal
 
 ![teaser](fig/dereflection.jpg)
 
@@ -177,7 +174,7 @@ python eval_dereflection.py --dataset xzhang --ckptdir checkpoints --net_G unet_
 
 
 
-### Task 4: Shadow Removal
+## Task 4: Shadow Removal
 
 ![teaser](fig/deshadow.jpg)
 
@@ -213,7 +210,7 @@ python eval_deshadow.py --dataset srd --ckptdir checkpoints --net_G unet_512 --i
 
 
 
-# Citation
+## Citation
 
 If you use this code for your research, please cite our paper:
 
