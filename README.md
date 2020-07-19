@@ -48,23 +48,24 @@ See [Requirements.txt](requirements.txt).
 #### On [Stanford-Dogs](https://people.csail.mit.edu/khosla/papers/fgvc2011.pdf) + [VGG-Flowers](http://www.robots.ox.ac.uk/~men/papers/nilsback_cvpr06.pdf)
 
 - To train the model:
-  ``````shell
-  python train.py --dataset dogsflowers --net_G unet_128 --checkpoint_dir checkpoints --vis_dir val_out --max_num_epochs 200 --batch_size 2 --enable_d1d2 --enable_d3 --enable_synfake --output_auto_enhance
-  ``````
+
+```bash
+python train.py --dataset dogsflowers --net_G unet_128 --checkpoint_dir checkpoints --vis_dir val_out --max_num_epochs 200 --batch_size 2 --enable_d1d2 --enable_d3 --enable_synfake --output_auto_enhance
+```
 
 - To test the model:
 
-  ``````shell
-  python eval_unmix.py --dataset dogsflowers --ckptdir checkpoints --in_size 128 --net_G unet_128 --save_output
-  ``````
+```bash
+python eval_unmix.py --dataset dogsflowers --ckptdir checkpoints --in_size 128 --net_G unet_128 --save_output
+```
 
 #### On MNIST + MNIST
 
 - To train the model:
 
-  ``````shell
-  python train.py --dataset mnist --net_G unet_64 --checkpoint_dir checkpoints --vis_dir val_out --max_num_epochs 200 --batch_size 2 --enable_d1d2 --enable_d3 --enable_synfake --output_auto_enhance
-  ``````
+```bash
+python train.py --dataset mnist --net_G unet_64 --checkpoint_dir checkpoints --vis_dir val_out --max_num_epochs 200 --batch_size 2 --enable_d1d2 --enable_d3 --enable_synfake --output_auto_enhance
+```
 
 
 
