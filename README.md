@@ -10,7 +10,7 @@ Separating individual image layers from a single mixed image has long been an im
 
 ![teaser](fig/teaser.jpg)
 
-In this repository, we implement the training and testing of our method based on pytorch and also provide several demo datasets that can be used for reproduce the results reported in our paper. With the code, you can also try on your own dataset by following the instructions below.
+In this repository, we implement the training and testing of our paper based on pytorch and provide several demo datasets that can be used for reproduce the results reported in our paper. With the code, you can also try on your own datasets by following the instructions below.
 
 Our code is partially adapted from the project [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 
@@ -37,12 +37,12 @@ cd Deep-adversarial-decomposition
 unzip datasets.zip
 ```
 
-   Please not that in each of our demo datasets, we only uploaded a very small part of the data, which are used to show the directory configurations of the datasets. To reproduce the results reported in our paper, you can download the full versions of these datasets. All datasets used in our experiments are publicly available. Please check out our [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zou_Deep_Adversarial_Decomposition_A_Unified_Framework_for_Separating_Superimposed_Images_CVPR_2020_paper.pdf) for more details.
+   Please note that in each of our demo datasets, we only uploaded a very small part of the images, which are only used as an example to show how the structure of the file directory is organized. To reproduce the results reported in our paper, you need to download the full versions of these datasets. All datasets used in our experiments are publicly available. Please check out our [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zou_Deep_Adversarial_Decomposition_A_Unified_Framework_for_Separating_Superimposed_Images_CVPR_2020_paper.pdf) for more details.
 
    
 
 
-## Task 1: Image unmix
+## Task 1: Image decomposition
 
 ![teaser](fig/unmix.jpg)
 
