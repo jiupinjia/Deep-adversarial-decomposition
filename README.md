@@ -55,9 +55,9 @@ See [Requirements.txt](requirements.txt).
 
 - To test the model:
 
-   ``````shell
-python eval_unmix.py --dataset dogsflowers --ckptdir checkpoints --in_size 128 --net_G unet_128 --save_output
-   ``````
+  ``````shell
+  python eval_unmix.py --dataset dogsflowers --ckptdir checkpoints --in_size 128 --net_G unet_128 --save_output
+  ``````
 
 #### On MNIST + MNIST
 
@@ -81,9 +81,9 @@ python eval_unmix.py --dataset dogsflowers --ckptdir checkpoints --in_size 128 -
 
 - To test the model:
 
-   ``````shell
+  ``````shell
 python eval_derain.py --dataset rain100h --ckptdir checkpoints --net_G unet_512 --in_size 512 --save_output
-   ``````
+  ``````
 
 #### On [Rain800](https://arxiv.org/abs/1701.05957) 
 
@@ -95,9 +95,9 @@ python eval_derain.py --dataset rain100h --ckptdir checkpoints --net_G unet_512 
 
 - To test the model:
 
-   ``````shell
-python eval_derain.py --dataset rain800 --ckptdir checkpoints --net_G unet_512 --in_size 512 --save_output
-   ``````
+  ``````shell
+  python eval_derain.py --dataset rain800 --ckptdir checkpoints --net_G unet_512 --in_size 512 --save_output
+  ``````
 
 #### On [DID-MDN](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Density-Aware_Single_Image_CVPR_2018_paper.pdf) 
 
@@ -109,15 +109,15 @@ python eval_derain.py --dataset rain800 --ckptdir checkpoints --net_G unet_512 -
 
 - To test the model on [DID-MDN](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Density-Aware_Single_Image_CVPR_2018_paper.pdf):
 
-   ``````shell
-python eval_derain.py --dataset did-mdn-test1 --ckptdir checkpoints --net_G unet_512 --save_output
-   ``````
+  ``````shell
+  python eval_derain.py --dataset did-mdn-test1 --ckptdir checkpoints --net_G unet_512 --save_output
+  ``````
 
 - To test the model on [DDN-1k](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Density-Aware_Single_Image_CVPR_2018_paper.pdf):
 
-   ``````shell
-python eval_derain.py --dataset did-mdn-test2 --ckptdir checkpoints --net_G unet_512 --in_size 512 --save_output
-   ``````
+  ``````shell
+  python eval_derain.py --dataset did-mdn-test2 --ckptdir checkpoints --net_G unet_512 --in_size 512 --save_output
+  ``````
 
 
 
@@ -133,9 +133,9 @@ python eval_derain.py --dataset did-mdn-test2 --ckptdir checkpoints --net_G unet
 
 - To test the model:
 
-   ``````shell
-python eval_dereflection.py --dataset syn3-all --ckptdir checkpoints --net_G unet_512 --in_size 512 --save_output
-   ``````
+  ``````shell
+  python eval_dereflection.py --dataset syn3-all --ckptdir checkpoints --net_G unet_512 --in_size 512 --save_output
+  ``````
    
    You can also train and test separately on the three subsets of [Synthesis-Reflection](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wen_Single_Image_Reflection_Removal_Beyond_Linearity_CVPR_2019_paper.pdf) by specifying `--dataset` above to `syn3-defocused`, `syn3-focused`, or `syn3-ghosting`. 
 
