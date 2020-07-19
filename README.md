@@ -34,9 +34,9 @@ cd Deep-adversarial-decomposition
 ```bash
 unzip datasets.zip
 ```
-   
+
    Please not that in each of our demo datasets, we only uploaded a very small part of the data, which are used to show the directory configurations of the datasets. To reproduce the results reported in our paper, you can download the full versions of these datasets. All datasets used in our experiments are publicly available. Please check out our [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zou_Deep_Adversarial_Decomposition_A_Unified_Framework_for_Separating_Superimposed_Images_CVPR_2020_paper.pdf) for more details.
-   
+
    
 
 ## Training and evaluation
@@ -44,6 +44,9 @@ unzip datasets.zip
 
 
 ### Task 1: Image unmix
+
+![teaser](fig/unmix.jpg)
+
 
 #### On [Stanford-Dogs](https://people.csail.mit.edu/khosla/papers/fgvc2011.pdf) + [VGG-Flowers](http://www.robots.ox.ac.uk/~men/papers/nilsback_cvpr06.pdf)
 
@@ -70,6 +73,8 @@ python train.py --dataset mnist --net_G unet_64 --checkpoint_dir checkpoints --v
 
 
 ### Task 2: Image deraining
+
+![teaser](fig/derain.jpg)
 
 #### On [Rain100H](https://arxiv.org/abs/1609.07769) 
 
@@ -123,6 +128,8 @@ python eval_derain.py --dataset did-mdn-test2 --ckptdir checkpoints --net_G unet
 
 ### Task 3: Image reflection removal
 
+![teaser](fig/dereflection.jpg)
+
 #### On [Synthesis-Reflection](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wen_Single_Image_Reflection_Removal_Beyond_Linearity_CVPR_2019_paper.pdf) 
 
 - To train the model (together on all three subsets [defocused, focused, ghosting]):
@@ -136,7 +143,7 @@ python train.py --dataset syn3-all --checkpoint_dir checkpoints --vis_dir val_ou
 ```bash
 python eval_dereflection.py --dataset syn3-all --ckptdir checkpoints --net_G unet_512 --in_size 512 --save_output
 ```
-   
+
    You can also train and test separately on the three subsets of [Synthesis-Reflection](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wen_Single_Image_Reflection_Removal_Beyond_Linearity_CVPR_2019_paper.pdf) by specifying `--dataset` above to `syn3-defocused`, `syn3-focused`, or `syn3-ghosting`. 
 
 #### On [BDN](https://openaccess.thecvf.com/content_ECCV_2018/papers/Jie_Yang_Seeing_Deeply_and_ECCV_2018_paper.pdf) 
@@ -171,6 +178,8 @@ python eval_dereflection.py --dataset xzhang --ckptdir checkpoints --net_G unet_
 
 
 ### Task 4: Shadow Removal
+
+![teaser](fig/deshadow.jpg)
 
 #### On [ISTD](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Stacked_Conditional_Generative_CVPR_2018_paper.pdf) 
 
