@@ -18,7 +18,7 @@ Our code is partially adapted from the project [pytorch-CycleGAN-and-pix2pix](ht
 
 ## Requirements
 
-See [Requirements.txt](requirements.txt).
+See [Requirements.txt](Requirements.txt).
 
 
 
