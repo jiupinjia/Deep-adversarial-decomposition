@@ -211,6 +211,12 @@ python eval_deshadow.py --dataset srd --ckptdir checkpoints --net_G unet_512 --i
 
 
 
+## Pretrained Models
+
+The pre-trained models of the above examples can be found in the following link:
+https://drive.google.com/drive/folders/1Tv4-woRBZOVUInFLs0-S_cV2u-OjbhQ-?usp=sharing
+
+
 
 ## Citation
 
